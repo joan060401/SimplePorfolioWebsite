@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Oswald&family=Poppins:wght@800&family=Radio+Canada&family=Roboto+Condensed:wght@400;700&display=swap');
+body{
+    margin: 0;
+    text-decoration: none;
+    background-image:url(../images/bg2.png) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 10px 50px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-bottom: 1px solid rgb(192, 176, 3);
+}
+.logo{
+    padding: 10px 20px;
+    height: 50px;
+    float: left;
+   
+}
+.logo a{
+    font-size:25px ;
+    font-family: 'Roboto Condensed';
+    letter-spacing: 2px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+nav .logo a:hover{
+    color: rgb(215, 215, 12);
+}
+
+.logo img{
+    height: 35px;
+    width: 35px;
+
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+   padding-right: 100px;
+    display: flex;
+  
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Oleo Script';
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+nav ul li a:hover{
+    color: rgb(215, 215, 12);
+}
+
+.login-box{
+	width: 300px;
+	height: 390px;
+	background: rgba(239, 235, 18, 0.226);
+	color: #966037;
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+  border-radius: 10%;
+}
+.avatar{
+	width: 120px;
+	height: 110px;
+	border-radius: 50%;
+  position: absolute;
+	top: -60px;
+	left: calc(48% - 50px);
+}
+
+.monospace {
+	font-family: sans-serif;
+ 	font-size: 19px;
+   color: #1903039a;
+   letter-spacing: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.login-box p{
+	line-height: 10px;
+	margin: 0;
+	padding: 0;
+ 	letter-spacing: 2px;
+	font-weight: bold;
+}
+.login-box input{
+	width: 100%;
+	font-family: 'Roboto Condensed';
+
+}
+.login-box input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	height: 40px;
+	background: transparent;
+	outline: none;
+	color: rgb(17, 16, 16);
+	font-size: 13px;
+	
+}
+
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+	background: #0f6eb1;
+	border-radius: 10px;
+	
+}
+.login-box input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #b7a909;
+	color: rgb(0, 0, 0);
+}
+.msg{
+	margin-top: 10px;
+	width: 250px;
+	line-height: 15px;
+	background-color: rgba(255, 255, 255, 0.466);
+	color: rgba(83, 81, 81, 0.737);
+}
